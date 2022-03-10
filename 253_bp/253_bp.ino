@@ -16,8 +16,10 @@ void setup()
 {
   //  change the baud rate to 9600 if required
   Serial.begin(115200);
-  push_button1.setDebounceTime(50);  //  debounce time = 50 ms
-  push_button2.setDebounceTime(50);
+  
+  //  set debounce time for both the button objects
+  
+
 }
 
 void loop()
